@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY voc "http://ns.inria.fr/semsna/2009/06/21/voc.rdf#" >
+    <!ENTITY recipe_community "http://www.semanticweb.org/betul/ontologies/2013/3/recipe_community#" >
+    <!ENTITY TweetWordOntology "http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/betul/ontologies/2013/3/recipe_community#"
+     xml:base="http://www.semanticweb.org/betul/ontologies/2013/3/recipe_community"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:TweetWordOntology="http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:recipe_community="http://www.semanticweb.org/betul/ontologies/2013/3/recipe_community#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:voc="http://ns.inria.fr/semsna/2009/06/21/voc.rdf#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology">
+        <dc:title xml:lang="en">Tweet Word Community</dc:title>
+        <owl:imports rdf:resource="http://ns.inria.fr/semsna/2009/06/21/voc.rdf"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ns.inria.fr/semsna/2009/06/21/voc.rdf#isDefinedForProperty -->
+
+    <owl:AnnotationProperty rdf:about="&voc;isDefinedForProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#TweetWordProperty -->
+
+    <owl:ObjectProperty rdf:about="&TweetWordOntology;TweetWordProperty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#hasFrequency -->
+
+    <owl:ObjectProperty rdf:about="&TweetWordOntology;hasFrequency">
+        <rdfs:domain rdf:resource="&TweetWordOntology;RealWord"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#hasSameUsageWith -->
+
+    <owl:ObjectProperty rdf:about="&TweetWordOntology;hasSameUsageWith">
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+        <rdfs:range rdf:resource="&TweetWordOntology;User"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#hasUsed -->
+
+    <owl:ObjectProperty rdf:about="&TweetWordOntology;hasUsed">
+        <rdfs:range rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;User"/>
+        <owl:inverseOf rdf:resource="&TweetWordOntology;isUsedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#hasVersion -->
+
+    <owl:ObjectProperty rdf:about="&TweetWordOntology;hasVersion">
+        <rdfs:domain rdf:resource="&TweetWordOntology;RealWord"/>
+        <rdfs:range rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+        <owl:inverseOf rdf:resource="&TweetWordOntology;isVersionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#isUsedBy -->
+
+    <owl:ObjectProperty rdf:about="&TweetWordOntology;isUsedBy">
+        <rdfs:domain rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+        <rdfs:range rdf:resource="&TweetWordOntology;User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#isVersionOf -->
+
+    <owl:ObjectProperty rdf:about="&TweetWordOntology;isVersionOf">
+        <rdfs:range rdf:resource="&TweetWordOntology;RealWord"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#usedWith -->
+
+    <owl:ObjectProperty rdf:about="&TweetWordOntology;usedWith">
+        <rdfs:range rdf:resource="&TweetWordOntology;RealWord"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;RealWord"/>
+        <rdfs:range rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#hasLocation">
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;User"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ns.inria.fr/semsna/2009/06/21/voc.rdf#InDegree -->
+
+    <owl:Class rdf:about="&voc;InDegree"/>
+    
+
+
+    <!-- http://ns.inria.fr/semsna/2009/06/21/voc.rdf#SNAConcept -->
+
+    <owl:Class rdf:about="&voc;SNAConcept">
+        <owl:disjointWith rdf:resource="&TweetWordOntology;Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#Actor -->
+
+    <owl:Class rdf:about="&TweetWordOntology;Actor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#RealWord -->
+
+    <owl:Class rdf:about="&TweetWordOntology;RealWord">
+        <rdfs:subClassOf rdf:resource="&TweetWordOntology;Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#RealWordHasVersionsMost -->
+
+    <owl:Class rdf:about="&TweetWordOntology;RealWordHasVersionsMost">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&TweetWordOntology;RealWord"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&TweetWordOntology;hasVersion"/>
+                        <owl:onClass rdf:resource="&TweetWordOntology;SlangWord"/>
+                        <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:minQualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&TweetWordOntology;RealWord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#SlangWord -->
+
+    <owl:Class rdf:about="&TweetWordOntology;SlangWord">
+        <rdfs:subClassOf rdf:resource="&TweetWordOntology;Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#User -->
+
+    <owl:Class rdf:about="&TweetWordOntology;User">
+        <rdfs:subClassOf rdf:resource="&TweetWordOntology;Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#UsersUsedMostCommonSlangs -->
+
+    <owl:Class rdf:about="&TweetWordOntology;UsersUsedMostCommonSlangs">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&TweetWordOntology;User"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&TweetWordOntology;hasSameUsageWith"/>
+                        <owl:onClass rdf:resource="&TweetWordOntology;User"/>
+                        <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">10</owl:minQualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#UsersUsedSlangMost -->
+
+    <owl:Class rdf:about="&TweetWordOntology;UsersUsedSlangMost">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&TweetWordOntology;User"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&TweetWordOntology;hasUsed"/>
+                        <owl:onClass rdf:resource="&TweetWordOntology;SlangWord"/>
+                        <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">10</owl:minQualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#MostPopularSlangs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#MostPopularSlangs">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&TweetWordOntology;SlangWord"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&TweetWordOntology;hasFrequency"/>
+                        <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">10</owl:minCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#UsersUsedNoSlang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#UsersUsedNoSlang">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&TweetWordOntology;User"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&TweetWordOntology;hasUsed"/>
+                        <owl:onClass rdf:resource="&TweetWordOntology;SlangWord"/>
+                        <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&TweetWordOntology;User"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#Four_Pins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#Four_Pins">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#JoelBoggess -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#JoelBoggess">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#KhadiDon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#KhadiDon">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#LadiSwan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#LadiSwan">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#MannieeGeee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#MannieeGeee">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#NonProphet_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#NonProphet_">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#PrinceEezy_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#PrinceEezy_">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#TeezusTheGod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#TeezusTheGod">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#_eeazye -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#_eeazye">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#denverrescue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#denverrescue">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#fxckdarien -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#fxckdarien">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#laflamecarl_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#laflamecarl_">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#nataleyy31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#nataleyy31">
+        <rdf:type rdf:resource="&TweetWordOntology;User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#so -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#so">
+        <rdf:type rdf:resource="&TweetWordOntology;RealWord"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#so_plus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#so_plus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#so_plus">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#u -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#u">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ur">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#w -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#w">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#w_slash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#w_slash">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#why -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#why">
+        <rdf:type rdf:resource="&TweetWordOntology;RealWord"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#y"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#with -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#with">
+        <rdf:type rdf:resource="&TweetWordOntology;RealWord"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#w"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#w_slash"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#y -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#y">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#y-all -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#y-all">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ya">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ya-ll -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ya-ll">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#year -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#year">
+        <rdf:type rdf:resource="&TweetWordOntology;RealWord"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#yr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#yo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#yo">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#you -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#you">
+        <rdf:type rdf:resource="&TweetWordOntology;RealWord"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#u"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ya"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#you_all -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#you_all">
+        <rdf:type rdf:resource="&TweetWordOntology;RealWord"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#y-all"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ya-ll"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#your -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#your">
+        <rdf:type rdf:resource="&TweetWordOntology;RealWord"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ur"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#ya"/>
+        <TweetWordOntology:hasVersion rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#yo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#yr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#yr">
+        <rdf:type rdf:resource="&TweetWordOntology;SlangWord"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
