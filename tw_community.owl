@@ -64,22 +64,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#hasFrequency -->
-
-    <owl:ObjectProperty rdf:about="&TweetWordOntology;hasFrequency">
-        <rdfs:domain rdf:resource="&TweetWordOntology;RealWord"/>
-        <rdfs:domain rdf:resource="&TweetWordOntology;SlangWord"/>
-        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
-                <owl:someValuesFrom rdf:resource="&xsd;int"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/betul/ontologies/2013/3/TweetWordOntology#hasSameUsageWith -->
 
     <owl:ObjectProperty rdf:about="&TweetWordOntology;hasSameUsageWith">
@@ -144,18 +128,41 @@
     
 
 
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#TweetWordProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#TweetWordProperty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#hasFrequency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#hasFrequency">
+        <rdfs:domain rdf:resource="&TweetWordOntology;RealWord"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#TweetWordProperty"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#hasLocation -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#hasLocation">
-        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#hasLocation">
         <rdfs:domain rdf:resource="&TweetWordOntology;User"/>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
-                <owl:someValuesFrom rdf:resource="&xsd;string"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#TweetWordProperty"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -275,17 +282,6 @@
     <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#MostPopularSlangs -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#MostPopularSlangs">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&TweetWordOntology;SlangWord"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&TweetWordOntology;hasFrequency"/>
-                        <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">10</owl:minCardinality>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&TweetWordOntology;SlangWord"/>
     </owl:Class>
     
