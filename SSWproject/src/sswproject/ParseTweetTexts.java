@@ -32,7 +32,7 @@ public class ParseTweetTexts {
 					  {
 						  if(!slangFreq.containsKey(curWord))
 						  {
-							  slangFreq.put(curWord, 0);
+							  slangFreq.put(curWord, 1);
 						  }
 						  else
 						  {
@@ -40,7 +40,7 @@ public class ParseTweetTexts {
 							  slangFreq.put(curWord, freq+1);
 							  
 						  }
-						  
+					  if(cooccur.size() > 1)
 						  cooccur.add(curWord); 
 						  
 					  }
@@ -69,7 +69,7 @@ public class ParseTweetTexts {
 					  String cooccur2 = slang2 + " - " + slang;
 			          if(!slangCooccurFreq.containsKey(cooccur)&& !slangCooccurFreq.containsKey(cooccur2))
 			          {
-			        	  slangCooccurFreq.put(cooccur, 0);
+			        	  slangCooccurFreq.put(cooccur, 1);
 			          }
 			          else
 			          {
