@@ -11,11 +11,14 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import static sswproject.Tokenizer.tokenize;
+import java.util.Map;
+
+import sswproject.Tokenizer;
+
 
 /**
  *
- * @author betÃ¼l
+ * @author betül
  */
 public class SSWproject {
 
@@ -27,6 +30,9 @@ public class SSWproject {
         //Tweet Object List where each object has a username, tweet text, words of tweets, location, and language
         List<TweetObject> TO_List; 
         TO_List = new ArrayList<TweetObject>();
+        SlangDictionary slangDic = new SlangDictionary();
+        Map<String, String>  slangWDic = slangDic.buildDictionary("slangs.txt");
+        
         
         //reading xmas.txt
         BufferedReader br = new BufferedReader(new FileReader("xmas.txt"));
@@ -59,7 +65,7 @@ public class SSWproject {
                 String lang = temp[4].trim();
                
                 //tokenization
-                List<String> words = tokenize(text);
+                List<String> words = Tokenizer.tokenize(text);
                 
                 //create a tweet object with username,tex,words, loc, and langugage areas
                 TweetObject to = new TweetObject(uname, text, words, loc, lang);
@@ -70,6 +76,9 @@ public class SSWproject {
         } finally {
             br.close();
         }
+        
+        
+        ParseTweetTexts.checkTextsforSlangs(TO_List, slangWDic);
      
     }
     
