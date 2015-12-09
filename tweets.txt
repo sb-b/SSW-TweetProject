@@ -1,0 +1,19 @@
+{
+"Tweets": {
+    "Array1": [
+       {
+        "name": "Lauren_Mayhew",
+        "tweet": "RT @KetoKrate: Christmas is here! Gift yourself delicious Keto snacks.",
+        "location": "Moncton, NB",
+        "language": "en"
+      },
+    {
+        "name":  "Se7eN250r",
+        "tweet": "Listening to Christmas (Baby Please Come Home) by Mariah Carey, on my Echo!",
+        "location":  "Earth",
+        "language": "en"
+      }
+    ]
+}
+
+} 
