@@ -9,7 +9,7 @@ public class CreateRDF {
 /*
 Jena API is used for generating RDF, which is available on https://jena.apache.org/.
 Jar files in library folder should be imported into the project. 
-Also, javadoc files needs to be specified in project properties in order to have program ran.
+Also, javadoc files needs to be specified in project properties in order to have program run.
 /*
 	/**
 	 * @param args
