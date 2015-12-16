@@ -1,32 +1,39 @@
 package sswproject;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import sswproject.SlangDictionary;
+
 
 public class ParseTweetTexts {
 	
 	  public static Map<String, Integer> slangFreq = new LinkedHashMap<>();
 	  public static Map<String, Integer> slangCooccurFreq = new LinkedHashMap<>();
+	  public static Map<String, Integer> slangConsCoccurFreq = new LinkedHashMap<>();
+	  public static Map<String, Integer> userSlangFreq = new LinkedHashMap<>();
 	  
 	  
 	  public static void checkTextsforSlangs(List<TweetObject> TO_List, Map<String, String> slangDictionary)
 	  {
 		  int encount = 0;
+		  String prevWord = "";
+		  String nextWord = "";
+		  
 		  for(TweetObject toNew : TO_List)
 		  {
 			  if(toNew.lang.equals("en"))
 			  {
 				  encount ++;
 				  List<String> toText = toNew.tweetWords;
+				  String username = toNew.username;
+				  //String location = toNew.location;
+				  
 				  
 				  for(String curWord : toText)
 				  {
-					  List<String> cooccur = new ArrayList<String>();
+					
 					  
 					  if(slangDictionary.containsKey(curWord))
 					  {
@@ -40,12 +47,26 @@ public class ParseTweetTexts {
 							  slangFreq.put(curWord, freq+1);
 							  
 						  }
-					  if(cooccur.size() > 1)
-						  cooccur.add(curWord); 
 						  
+						  int sIndex = toText.indexOf(curWord);
+						  
+						  if(sIndex > 0)
+						  {
+							  prevWord = toText.get(sIndex -1);
+							  fillConsCooccurList(curWord, prevWord,0);
+						  }
+						  if(sIndex < toText.size()-1)
+						  {
+							  nextWord = toText.get(sIndex +1);
+							  fillConsCooccurList(curWord, nextWord,1);
+						  }
+						  
+						  fillCooccurList(toText, curWord);
+						  fillUserSlangList(username, curWord);
+
 					  }
 					  
-					  fillCooccurList(cooccur);
+					
 				  }
 				  
 			  }
@@ -56,18 +77,18 @@ public class ParseTweetTexts {
 	  }
 	  
 	  
-	  public static void fillCooccurList(List<String> cooccurList )
+	  public static void fillCooccurList(List<String> wordList, String slang )
 	  {
 		 
-		  for(String slang : cooccurList)
-		  {
-			  for(String slang2 : cooccurList)
+		  for(String words : wordList)
+		  {		
+			  if(!words.contains("@"))
 			  {
-				  if(slang != slang2)
+				  if(slang != words)
 				  {
-					  String cooccur = slang + " - " + slang2;
-					  String cooccur2 = slang2 + " - " + slang;
-			          if(!slangCooccurFreq.containsKey(cooccur)&& !slangCooccurFreq.containsKey(cooccur2))
+					  String cooccur = slang + " - " + words;
+
+			          if(!slangCooccurFreq.containsKey(cooccur))
 			          {
 			        	  slangCooccurFreq.put(cooccur, 1);
 			          }
@@ -82,13 +103,56 @@ public class ParseTweetTexts {
 	  }
 	  
 	  
+	  private static void fillConsCooccurList(String slang, String w1, int flag)
+	  {
+		  String cooccur = "";
+		 if(!w1.contains("@"))
+		 {
+	        if(flag == 1)
+			  cooccur = slang + " - " + w1;
+	        else if(flag== 0)
+	        	cooccur = w1 + " - " + slang;
+
+			if(!slangConsCoccurFreq.containsKey(cooccur))
+			   {
+				slangConsCoccurFreq.put(cooccur, 1);
+			   }
+			else
+			     {
+			       int freq = slangConsCoccurFreq.get(cooccur);
+			       slangConsCoccurFreq.put(cooccur, freq+1);
+			     }	
+			
+		 }
+		
+	  }
+	  
+	  public static void fillUserSlangList(String user, String slang)
+	  {
+		 
+			String cooccur = user + " - " + slang;
+
+			if(!userSlangFreq.containsKey(cooccur))
+			   {
+				userSlangFreq.put(cooccur, 1);
+			   }
+			else
+			     {
+			       int freq = userSlangFreq.get(cooccur);
+			       userSlangFreq.put(cooccur, freq+1);
+			     }	
+
+		
+	  }
+	  
 	  public static void printOutputs()
 	  {
 		  for(Entry<String, Integer>  slangs : slangFreq.entrySet() )
 		  {
 			  String slangWord = slangs.getKey();
 			  int slangFreq = slangs.getValue();
-			  System.out.println(slangWord + "\t" +slangFreq );
+			  if(slangFreq > 1)
+			     System.out.println(slangWord + "\t" +slangFreq );
 		  }
 		  
 		  System.out.println("-----------------------------------");
@@ -97,7 +161,29 @@ public class ParseTweetTexts {
 		  {
 			  String slangWords = slangs.getKey();
 			  int coFreq = slangs.getValue();
-			  System.out.println(slangWords + "\t" +coFreq );
+			  if(coFreq > 1)
+			    System.out.println(slangWords + "\t" +coFreq );
+		  }
+		  
+		  
+           System.out.println("-----------------------------------");
+		  
+		  for(Entry<String, Integer>  slangs : slangConsCoccurFreq.entrySet() )
+		  {
+			  String slangWords = slangs.getKey();
+			  int coFreq = slangs.getValue();
+			  if(coFreq > 1)
+			    System.out.println(slangWords + "\t" +coFreq );
+		  }
+		  
+          System.out.println("-----------------------------------");
+		  
+		  for(Entry<String, Integer>  slangs : userSlangFreq.entrySet() )
+		  {
+			  String slangWords = slangs.getKey();
+			  int coFreq = slangs.getValue();
+			  if(coFreq > 1)
+			    System.out.println(slangWords + "\t" +coFreq );
 		  }
 	  }
 
