@@ -72,6 +72,9 @@ public class SSWproject {
 	                uname = uname.trim();
 	                String text = temp[1].substring(0, temp[1].length()-1);
 	                text = text.trim();
+	                text = text.replaceAll("https?://\\S+\\s?", "");
+	                
+	                /*TO DO: remove https, wont dont am, are*/
 	                
 	                if(temp.length > 2)
 	                {

@@ -1,5 +1,8 @@
 package sswproject;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -130,7 +133,7 @@ public class ParseTweetTexts {
 	  public static void fillUserSlangList(String user, String slang)
 	  {
 		 
-			String cooccur = user + " - " + slang;
+			String cooccur = user + "-" + slang;
 
 			if(!userSlangFreq.containsKey(cooccur))
 			   {
@@ -144,6 +147,26 @@ public class ParseTweetTexts {
 
 		
 	  }
+	  
+	  public static void writeToText(Map<String, Integer> list, String filename) throws IOException
+	  {
+		  
+		    FileWriter fw = new FileWriter(filename);
+	        PrintWriter pw = new PrintWriter(fw);
+	        
+	        
+		  for(Entry<String, Integer>  slangs : slangFreq.entrySet() )
+		  {
+			  String slangWord = slangs.getKey();
+			  String [] words = slangWord.split("-");
+			  int slangFreq = slangs.getValue();
+			  if(slangFreq > 1)
+			     pw.println(words[0] + "\t" +slangFreq );
+		  }
+		  
+		  pw.close();
+	  }
+	  
 	  
 	  public static void printOutputs()
 	  {

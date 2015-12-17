@@ -120,7 +120,6 @@ what	huh
 have	HV
 history	hx
 hospital	hx
-Idiot	I
 ideal	I-D-L
 identification	ID
 jealous	Jealz
@@ -221,7 +220,6 @@ Weekend	W/E
 Without	W/O
 Wait	W8
 wicked	wckd
-Whatever	WE
 world	wirld
 week	wk
 weekend	wknd
