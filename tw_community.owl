@@ -128,6 +128,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#consecutivelyUsedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/betul/ontologies/2015/3/TweetWordOntology#consecutivelyUsedWith">
+        <rdfs:domain rdf:resource="&TweetWordOntology;RealWord"/>
+        <rdfs:range rdf:resource="&TweetWordOntology;RealWord"/>
+        <rdfs:range rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:domain rdf:resource="&TweetWordOntology;SlangWord"/>
+        <rdfs:subPropertyOf rdf:resource="&TweetWordOntology;TweetWordProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
