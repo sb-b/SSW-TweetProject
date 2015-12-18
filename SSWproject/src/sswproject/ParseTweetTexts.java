@@ -16,9 +16,10 @@ public class ParseTweetTexts {
 	  public static Map<String, Integer> slangCooccurFreq = new LinkedHashMap<>();
 	  public static Map<String, Integer> slangConsCoccurFreq = new LinkedHashMap<>();
 	  public static Map<String, Integer> userSlangFreq = new LinkedHashMap<>();
+	  public static Map<String, String> userLocation = new LinkedHashMap<>();
+	  public static Map<String, Integer> locationSlangFreq = new LinkedHashMap<>();
 	  
-	  
-	  public static void checkTextsforSlangs(List<TweetObject> TO_List, Map<String, String> slangDictionary)
+	  public static void checkTextsforSlangs(List<TweetObject> TO_List, Map<String, String> slangDictionary) throws IOException
 	  {
 		  int encount = 0;
 		  String prevWord = "";
@@ -31,13 +32,12 @@ public class ParseTweetTexts {
 				  encount ++;
 				  List<String> toText = toNew.tweetWords;
 				  String username = toNew.username;
-				  //String location = toNew.location;
+				  String location = toNew.location;
 				  
 				  
 				  for(String curWord : toText)
 				  {
-					
-					  
+										  
 					  if(slangDictionary.containsKey(curWord))
 					  {
 						  if(!slangFreq.containsKey(curWord))
@@ -66,10 +66,11 @@ public class ParseTweetTexts {
 						  
 						  fillCooccurList(toText, curWord);
 						  fillUserSlangList(username, curWord);
+						  fillLocationSlangList(location, curWord);
 
 					  }
 					  
-					
+					   fillUserLocationList(username, location);
 				  }
 				  
 			  }
@@ -148,6 +149,40 @@ public class ParseTweetTexts {
 		
 	  }
 	  
+	  public static void fillLocationSlangList(String loc, String slang)
+	  {
+		 
+		  if(loc.equals(""))
+			  loc = "empty_field";
+		  
+			String cooccur = loc + "-" + slang;
+
+			if(!locationSlangFreq.containsKey(cooccur))
+			   {
+				locationSlangFreq.put(cooccur, 1);
+			   }
+			else
+			     {
+			       int freq = locationSlangFreq.get(cooccur);
+			       locationSlangFreq.put(cooccur, freq+1);
+			     }	
+		  
+
+		
+	  }
+	  
+	  public static void fillUserLocationList(String user, String location)
+	  {
+		  if(location.equals(""))
+			  location = "empty_field";
+		  
+			if(!userLocation.containsKey(user))
+			   {
+				userLocation.put(user, location);
+			   }
+		
+	  }
+	  
 	  public static void writeToText(Map<String, Integer> list, String filename) throws IOException
 	  {
 		  
@@ -155,59 +190,32 @@ public class ParseTweetTexts {
 	        PrintWriter pw = new PrintWriter(fw);
 	        
 	        
-		  for(Entry<String, Integer>  slangs : slangFreq.entrySet() )
+		  for(Entry<String, Integer>  slangs : list.entrySet() )
 		  {
 			  String slangWord = slangs.getKey();
 			  String [] words = slangWord.split("-");
 			  int slangFreq = slangs.getValue();
-			  if(slangFreq > 1)
-			     pw.println(words[0] + "\t" +slangFreq );
+			  if(words.length > 1)
+			     pw.println(words[0] + "\t" + words[1] + "\t" +slangFreq );
+			  else
+				  pw.println(words[0]  + "\t" +slangFreq );
 		  }
 		  
 		  pw.close();
 	  }
 	  
 	  
-	  public static void printOutputs()
+	  public static void printOutputs() throws IOException
 	  {
-		  for(Entry<String, Integer>  slangs : slangFreq.entrySet() )
-		  {
-			  String slangWord = slangs.getKey();
-			  int slangFreq = slangs.getValue();
-			  if(slangFreq > 1)
-			     System.out.println(slangWord + "\t" +slangFreq );
-		  }
 		  
-		  System.out.println("-----------------------------------");
+		  writeToText(slangFreq, "slangFreq.txt");
+		  writeToText(slangCooccurFreq, "slangCooccurFreq.txt");
+		  writeToText(slangConsCoccurFreq, "slangConsCoccurFreq.txt");
+		  writeToText(userSlangFreq, "userSlangFreq.txt");
+		  writeToText(locationSlangFreq, "locationSlangFreq.txt");
 		  
-		  for(Entry<String, Integer>  slangs : slangCooccurFreq.entrySet() )
-		  {
-			  String slangWords = slangs.getKey();
-			  int coFreq = slangs.getValue();
-			  if(coFreq > 1)
-			    System.out.println(slangWords + "\t" +coFreq );
-		  }
-		  
-		  
-           System.out.println("-----------------------------------");
-		  
-		  for(Entry<String, Integer>  slangs : slangConsCoccurFreq.entrySet() )
-		  {
-			  String slangWords = slangs.getKey();
-			  int coFreq = slangs.getValue();
-			  if(coFreq > 1)
-			    System.out.println(slangWords + "\t" +coFreq );
-		  }
-		  
-          System.out.println("-----------------------------------");
-		  
-		  for(Entry<String, Integer>  slangs : userSlangFreq.entrySet() )
-		  {
-			  String slangWords = slangs.getKey();
-			  int coFreq = slangs.getValue();
-			  if(coFreq > 1)
-			    System.out.println(slangWords + "\t" +coFreq );
-		  }
-	  }
+		  System.out.println("Analysis completed.");
+		 
+	 }
 
 }
