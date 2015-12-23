@@ -1,0 +1,96 @@
+(highest values)
+Conco-occurance
+degree
+u- 324
+4- 169
+r- 145
+n- 133
+ur- 121
+s -116
+w/ - 79
+
+neigborhood connectivity
+dummies - 289
+see - 289
+know- 289
+told- 289
+stupid
+fucked
+california
+raped
+stupid
+girl
+judged
+assholes
+internet
+ban
+
+closeness centrality
+fwd 1.0
+fence
+riding
+thin
+skilled
+gal
+blocked
+lack
+thereof
+ga
+fuquay
+varina,
+4ever
+into
+fs
+
+
+Betweenness centrality
+highest
+4ever- 1.0
+fwd - 1.0
+ga - 1.0
+u - 0.35
+
+clustering coefficient
+let 1.0
+done
+seriously
+w
+next
+real
+man
+h
+usa
+great
+were
+voters
+dealing
+idiots
+fool
+
+avg shortest path length
+makes 5.26
+money - 5.26
+truth 5.16
+making 5.05
+abondened 5.02
+qatar 4.9
+every  4.9
+tower 4.77
+wanted 4.747
+sleep 4.66
+
+
+Highest eccentricity-conco
+qatar- 7
+every -7
+badge-7
+truth -7
+making-7
+forced-7
+badges-7
+tower
+special
+acquired
+cards
+sleep
+
