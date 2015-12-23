@@ -1,0 +1,87 @@
+betweenness
+spk
+gal
+4ever
+u
+4
+e
+v
+ok
+n
+s
+
+eccentricity
+Charlotte,N
+Macomb, Michigan
+Riverside, C
+Baltimor
+US
+Sarasota, F
+Brazil
+Milan
+thx
+Colorado, US
+United States
+
+
+degree
+u
+s
+4
+empty_field
+ok
+n
+r
+
+neighborhood connectivity
+savvannah, g
+Atlanta/music paradise
+Durand, M
+Clovis, C
+Leeds
+Southern Oregon
+Penssylvania
+wales not Britain
+Alpharetta/Milton
+Australi
+
+Clustering coeeficient
+Worl
+laguna beach
+un
+Rhode Island, US
+Ft Worth T.
+Leicester U
+Pari
+Florid
+New Jersey, US
+US
+empty_field
+
+avg shortest path
+Milan
+Brazil
+U.S.
+Sarasota, F
+Tehran
+Charlotte, N
+Macomb, M
+Riverside, C
+Baltimor
+Ky. New Concor
+Vancouver B.
+
+
+closeness cent
+spk
+gal
+4ever
+Torre
+Jeddah
+D.C.
+Nashville
+Kepler
+Ft.Worth
+The Ohio State Uni
+
+
