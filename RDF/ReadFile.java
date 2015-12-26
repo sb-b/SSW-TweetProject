@@ -12,7 +12,7 @@ public class ReadFile {
     public static void main(String [] args) {
 
         // The name of the file to open.
-        String fileName = "/home/nihal/Workspace/CreateRDF/src/slangCooccurFreq.txt";
+        String fileName = "filePath/CreateRDF/src/slangCooccurFreq.txt";
 
         // This will reference one line at a time
         String line = null;
