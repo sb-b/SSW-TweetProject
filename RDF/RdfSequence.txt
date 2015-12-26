@@ -1,0 +1,1100 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>had</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>trump</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>said</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>z</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>us</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>shld</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>put</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>a</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>moratorium</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>on</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>people</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>coming</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>from</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>muslim</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>countries</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>until</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>vetting</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>procedure</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>is</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>perfected</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>it</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>would</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>be</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ok</vcard:Other>
+      <vcard:NAME>no</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>rt</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>muhammad</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>ali</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>responds</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>to</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>donald</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>trumps</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>proposal</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>barring</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>muslim</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>entry</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>the</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>s</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME></vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>rt</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>muhammad</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>ali</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>responds</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>to</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>donald</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>trumps</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>proposal</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>barring</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>muslim</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>entry</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>the</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>u</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME></vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ur</vcard:Other>
+      <vcard:NAME>a</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ur</vcard:Other>
+      <vcard:NAME>bit</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ur</vcard:Other>
+      <vcard:NAME>of</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>ur</vcard:Other>
+      <vcard:NAME>dickhea</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>trump</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>cancels</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>srael</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>visit</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>after</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>uproar</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>over</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>his</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>comments</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>jobs</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>k</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME></vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>jerusalem</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>ap</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME></vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>gop</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>f</vcard:Other>
+      <vcard:NAME>presidential</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>petition</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>ban</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>trump</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>from</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>k</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>is</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>most</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>popular</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>ever</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>on</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>government</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>u</vcard:Other>
+      <vcard:NAME>sit</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>rt</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>petition</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>to</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>ban</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>trump</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>from</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>u</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>is</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>most</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>popular</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>ever</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>on</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>government</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>k</vcard:Other>
+      <vcard:NAME>sit</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://localhost/yagmur">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Other>s</vcard:Other>
+      <vcard:NAME>e</vcard:NAME>
+    </vcard:N>
+    <vcard:FN>co-occurance</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
