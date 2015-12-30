@@ -90,7 +90,7 @@ public class ParseTweetTexts {
 			  {
 				  if(slang != words)
 				  {
-					  String cooccur = slang + " - " + words;
+					  String cooccur = slang + "--" + words;
 
 			          if(!slangCooccurFreq.containsKey(cooccur))
 			          {
@@ -113,9 +113,9 @@ public class ParseTweetTexts {
 		 if(!w1.contains("@"))
 		 {
 	        if(flag == 1)
-			  cooccur = slang + " - " + w1;
+			  cooccur = slang + "--" + w1;
 	        else if(flag== 0)
-	        	cooccur = w1 + " - " + slang;
+	        	cooccur = w1 + "--" + slang;
 
 			if(!slangConsCoccurFreq.containsKey(cooccur))
 			   {
@@ -134,7 +134,7 @@ public class ParseTweetTexts {
 	  public static void fillUserSlangList(String user, String slang)
 	  {
 		 
-			String cooccur = user + "-" + slang;
+			String cooccur = user + "--" + slang;
 
 			if(!userSlangFreq.containsKey(cooccur))
 			   {
@@ -155,7 +155,7 @@ public class ParseTweetTexts {
 		  if(loc.equals(""))
 			  loc = "empty_field";
 		  
-			String cooccur = loc + "-" + slang;
+			String cooccur = loc + "--" + slang;
 
 			if(!locationSlangFreq.containsKey(cooccur))
 			   {
@@ -193,22 +193,27 @@ public class ParseTweetTexts {
 		  for(Entry<String, Integer>  slangs : list.entrySet() )
 		  {
 			  String slangWord = slangs.getKey();
-			  String [] words = slangWord.split("-");
+			  
+			
+			  String [] words = slangWord.split("--");
 			  int slangFreq = slangs.getValue();
 			  if(words.length > 1)
+			  {
+				 if(!words[0].equals("") && !words[1].equals(""))
 			     pw.println(words[0] + "\t" + words[1] + "\t" +slangFreq );
-			  else
-				  pw.println(words[0]  + "\t" +slangFreq );
+			  }
+			
 		  }
 		  
 		  pw.close();
 	  }
 	  
+	
 	  
 	  public static void printOutputs() throws IOException
 	  {
 		  
-		  writeToText(slangFreq, "slangFreq.txt");
+		  writeToTexto(slangFreq, "slangFreq.txt");
 		  writeToText(slangCooccurFreq, "slangCooccurFreq.txt");
 		  writeToText(slangConsCoccurFreq, "slangConsCoccurFreq.txt");
 		  writeToText(userSlangFreq, "userSlangFreq.txt");
@@ -217,5 +222,26 @@ public class ParseTweetTexts {
 		  System.out.println("Analysis completed.");
 		 
 	 }
+	  
+	  public static void writeToTexto(Map<String, Integer> list, String filename) throws IOException
+	  {
+		  
+		    FileWriter fw = new FileWriter(filename);
+	        PrintWriter pw = new PrintWriter(fw);
+	        
+	        
+		  for(Entry<String, Integer>  slangs : list.entrySet() )
+		  {
+			  String slangWord = slangs.getKey();		
+			  String [] words = slangWord.split("-");
+			  int slangFreq = slangs.getValue();
+			
+				  pw.println(words[0]  + "\t" +slangFreq );
+		  }
+		  
+		  pw.close();
+	  }
+	  
+	  
 
 }

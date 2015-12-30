@@ -33,6 +33,7 @@ public class SSWproject {
         Map<String, String>  slangWDic = SlangDictionary.buildDictionary("slangs.txt");
         
         
+        
         //reading xmas.txt
         BufferedReader br = new BufferedReader(new FileReader("trump.txt"));
         try {
@@ -55,14 +56,7 @@ public class SSWproject {
                 tweets[i] = tweets[i].replace("\"","");
                 String[] temp = tweets[i].split("\t");
                 
-                
-                
-                if(i== 7002)
-                {
-                	System.out.println(i);
-                }
-                
-                if(temp.length > 1 && !temp[0].equals("") && !temp[1].equals(""))
+                if(temp.length > 3 && !temp[0].equals("") && !temp[1].equals(""))
                 {
                 
 	                String loc = "";

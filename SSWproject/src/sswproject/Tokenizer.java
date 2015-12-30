@@ -5,6 +5,7 @@
  */
 package sswproject;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -15,9 +16,10 @@ import java.util.StringTokenizer;
  */
 public class Tokenizer {
     
-    public static List<String> tokenize(String text)
+    public static List<String> tokenize(String text) throws IOException
     {
         List<String> words = new ArrayList<String>();
+        List<String> stopWList = SlangDictionary.stopWordList();
         
         String separator = "!?. ";
         
@@ -30,7 +32,11 @@ public class Tokenizer {
             }
             else {
                 token = token.toLowerCase();
-                words.add(token);
+                token = token.trim();   
+                token = token.replace(",", "");
+                
+               if(!stopWList.contains(token))
+                	words.add(token);
             }
 
         }
