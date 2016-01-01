@@ -22,6 +22,8 @@ public class ParseTweetTexts {
 	  public static void checkTextsforSlangs(List<TweetObject> TO_List, Map<String, String> slangDictionary) throws IOException
 	  {
 		  int encount = 0;
+		  int slangcount =0;
+		  int flag =0;
 		  String prevWord = "";
 		  String nextWord = "";
 		  
@@ -40,6 +42,10 @@ public class ParseTweetTexts {
 										  
 					  if(slangDictionary.containsKey(curWord))
 					  {
+						  flag = 1;
+						  
+						  if(flag ==1)
+							  slangcount++;
 						  if(!slangFreq.containsKey(curWord))
 						  {
 							  slangFreq.put(curWord, 1);
@@ -72,11 +78,12 @@ public class ParseTweetTexts {
 					  
 					   fillUserLocationList(username, location);
 				  }
-				  
+				  flag=0;
 			  }
 		  }
 
 		 System.out.println(encount);
+		 System.out.println(slangcount);
 	    printOutputs();
 	  }
 	  
@@ -213,11 +220,11 @@ public class ParseTweetTexts {
 	  public static void printOutputs() throws IOException
 	  {
 		  
-		  writeToTexto(slangFreq, "slangFreq.txt");
-		  writeToText(slangCooccurFreq, "slangCooccurFreq.txt");
-		  writeToText(slangConsCoccurFreq, "slangConsCoccurFreq.txt");
-		  writeToText(userSlangFreq, "userSlangFreq.txt");
-		  writeToText(locationSlangFreq, "locationSlangFreq.txt");
+		  writeToTexto(slangFreq, "output/slangFreq.txt");
+		  writeToText(slangCooccurFreq, "output/slangCooccurFreq.txt");
+		  writeToText(slangConsCoccurFreq, "output/slangConsCoccurFreq.txt");
+		  writeToText(userSlangFreq, "output/userSlangFreq.txt");
+		  writeToText(locationSlangFreq, "output/locationSlangFreq.txt");
 		  
 		  System.out.println("Analysis completed.");
 		 
