@@ -31,6 +31,7 @@ public class ParseTweetTexts {
 		  {
 			  if(toNew.lang.equals("en"))
 			  {
+				  
 				  encount ++;
 				  List<String> toText = toNew.tweetWords;
 				  String username = toNew.username;
@@ -227,6 +228,7 @@ public class ParseTweetTexts {
 		  writeToText(locationSlangFreq, "output/locationSlangFreq.txt");
 		  
 		  System.out.println("Analysis completed.");
+		  
 		 
 	 }
 	  
