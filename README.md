@@ -10,17 +10,31 @@ Reports: Includes the final report and progress presentation.
 SSWProject:
 
   It takes three input files:
+  
     trump.txt: each line includes a tweet formatted as, username \t tweet \t location \t language 
+    
     slang.txt: includes our slang word dictionary
+    
     stop-list.txt: includes a list of stop words
+    
   It creates 10 output files under the "output" directory:
+  
     locationSlangFreq.txt:
+    
     locationSlangFreq.txt:
-    slangConsCoccurFreq.txt
-    slangConsCoccurFreqws.txt
-    slangCooccurFreq.txt
-    slangCooccurFreqws.txt
-    slangFreq.txt
-    slangFreqws.txt
-    userSlangFreq.txt
-    userSlangFreqws.txt
+    
+    slangConsCoccurFreq.txt:
+    
+    slangConsCoccurFreqws.txt:
+    
+    slangCooccurFreq.txt:
+    
+    slangCooccurFreqws.txt:
+    
+    slangFreq.txt:
+    
+    slangFreqws.txt:
+    
+    userSlangFreq.txt:
+    
+    userSlangFreqws.txt:
