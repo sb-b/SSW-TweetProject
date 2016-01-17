@@ -19,22 +19,22 @@ SSWProject:
     
   It creates 10 output files under the "output" directory:
   
-    locationSlangFreq.txt:
+    locationSlangFreq.txt: location \t slang_word \t frequency,  shows the freq of a slang used in that location
     
-    locationSlangFreq.txt:
+    locationSlangFreq.txt: duplicate of the previous
     
-    slangConsCoccurFreq.txt:
+    slangConsCoccurFreq.txt: slang_word \t slang_word \t frequency, shows the frequency of two consecutive cooccur. words in a tweet
     
-    slangConsCoccurFreqws.txt:
+    slangConsCoccurFreqws.txt: same as previous, only with stop words
     
-    slangCooccurFreq.txt:
+    slangCooccurFreq.txt: slang_word \t slang_word \t frequency, shows the frequency of two  cooccur. words in a tweet
     
-    slangCooccurFreqws.txt:
+    slangCooccurFreqws.txt: same as previous, with stop words
     
-    slangFreq.txt:
+    slangFreq.txt: slang \t frequency, total frequency of slang in whole data set
     
-    slangFreqws.txt:
+    slangFreqws.txt: duplicate of  the previous
     
-    userSlangFreq.txt:
+    userSlangFreq.txt: user \t slang_word \t frequency,  shows the freq of a slang used by that user
     
-    userSlangFreqws.txt:
+    userSlangFreqws.txt: duplicate of the previous
